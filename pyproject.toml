@@ -7,7 +7,9 @@ authors = [
     { name = "lqzh", email = "9134671+lqzhgood@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "injector>=0.24.0",
+]
 
 [project.scripts]
 llmops = "llmops:main"
